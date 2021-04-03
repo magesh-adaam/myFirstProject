@@ -1,10 +1,11 @@
-import './App.css';
-import Login from './Login'
+import Contacts from './Components/Contacts';
 
 function App() {
   return (
-    <div>
-      <Login/>
+    <div className='row'>
+      <div className='col-md-8 offset-md-1'>
+        <Contacts />
+      </div>
     </div>
   );
 }
